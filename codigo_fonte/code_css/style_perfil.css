@@ -1,0 +1,40 @@
+.card-title {
+    font-size: 40px;
+}
+
+p {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+
+.navbar {
+    background-color: #3385ff !important;
+    font-size: 20px !important;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+@media (min-width: 992px) {
+    .navbar-nav .nav-link {
+        font-size: 20px;
+    }
+}
+
+.dropdown-menu .dropdown-item {
+    color: white;
+}
+
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu .dropdown-item:hover {
+    background-color: #3385ff;
+}
+
+.dropdown-menu {
+    background-color: #3385ff;
+}

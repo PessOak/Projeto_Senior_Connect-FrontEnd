@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: whitesmoke;
+  padding: 6px;
+  width: 350px;
+  height: 500px;
+  /* Ajustado para acomodar o campo adicional */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 darkgrey;
+}
+
+form {
+  position: absolute;
+  margin-top: 80px;
+  transition: .5s;
+  width: 300px;
+  height: 400px;
+}
+
+.buttonsForm {
+  margin-top: 40px;
+  position: relative;
+  border-radius: 30px;
+  box-shadow: 0 0 7px 0 #00A3C6;
+}
+
+.buttonsForm button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  position: relative;
+  padding: 10px 29px;
+}
+
+.btnColor {
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right, #00A3C6, #00A3C6);
+  border-radius: 30px;
+  transition: .3s;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  border: none;
+  margin-top: 20px;
+  border-radius: 60px;
+  padding: 12px 0 12px 40px;
+  outline: none;
+  width: 100%;
+  position: relative;
+}
+
+button[type="submit"] {
+  background: #00A3C6;
+  color: white;
+  border-radius: 30px;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 8px 1 8px 15px;
+  font-size: 19px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.divCheck {
+  margin: 10px 0 0 5px;
+  width: 80%;
+  font-size: 13px;
+}
+
+#signin {
+  left: 25px;
+}
+
+#signup {
+  left: 450px;
+}
+
+i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  pointer-events: none;
+}
+
+.iName {
+  top: 40px;
+  /* Ajuste para alinhar o ícone do nome */
+}
+
+.iEmail {
+  top: 106px;
+  /* Ajuste para alinhar o ícone do email */
+}
+
+.iEmail2 {
+  top: 42px;
+  /* Ajuste para alinhar o ícone da confirmação de senha */
+}
+
+
+.iPassword {
+  top: 170px;
+  /* Ajuste para alinhar o ícone da senha */
+}
+
+.iPassword2 {
+  top: 235px;
+  /* Ajuste para alinhar o ícone da confirmação de senha */
+}
+
+.iPassword3 {
+  top: 105px;
+  /* Ajuste para alinhar o ícone da confirmação de senha */
+}

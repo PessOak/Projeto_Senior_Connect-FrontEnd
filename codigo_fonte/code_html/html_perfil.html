@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Perfil</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../code_css/style_perfil.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary";>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../imagens/mini_logo_cortada.png" alt="Ícone" width="45" height="45">
+            </a>
+            <!-- Botão de toggler para telas pequenas -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Itens da barra de navegação -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="html_home.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="html_noticias.html">Notícias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="html_tecnologia.html">Tecnologia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="html_desafio.html">Desafios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="html_comunidade.html">Comunidade</a></li>
+                    <li class="nav-item"><a class="nav-link" href="html_cursos.html">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="profilepage.html"><i class="fas fa-user me-1"></i>Perfil</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 mb-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Perfil do Usuário</h3>
+                        <p class="text-center">Bem Vindo ao Senior Connect!</p>
+                        <form>
+                            <div class="form-group">
+                                <label for="userName">Nome do Usuário</label>
+                                <input type="text" class="form-control" id="userName" value="" readonly>
+                                <script>                                 
+                                    const usuario_logado = JSON.parse(localStorage.getItem("usuario_logado"));
+                                    // Verifica se os dados do usuário existem e se o email está presente
+                                    if (usuario_logado.name) {
+                                        // Exibe o email do usuário no elemento com id "userName"
+                                        document.getElementById("userName").value = usuario_logado.name;
+                                    } else {
+                                        // Se os dados do usuário ou o email estiverem ausentes, exibe uma mensagem de erro
+                                        document.getElementById("userName").value = "Erro ao carregar o nome";
+                                    }
+                                </script>
+                            </div>
+                            <div class="form-group">
+                                <label for="userEmail">Email do Usuário</label>
+                                <input type="email" class="form-control" id="userEmail" value="usuario@example.com"
+                                    readonly>
+                                <script>
+                                    // Verifica se os dados do usuário existem e se o email está presente
+                                    if (usuario_logado.email) {
+                                        // Exibe o email do usuário no elemento com id "userName"
+                                        document.getElementById("userEmail").value = usuario_logado.email;
+                                    } else {
+                                        // Se os dados do usuário ou o email estiverem ausentes, exibe uma mensagem de erro
+                                        document.getElementById("userEmail").value = "Erro ao carregar o email";
+                                    }
+                                </script>
+                            </div>
+                            <button type="button" class="btn btn-primary btn-block mt-4" onclick=logOut()
+                                id="logoutButton">Logout</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">Direitos reservados a SêniorConnect - 2024</span>
+            <a href="https://www.seniorconnect.com.br" style="color: #333;">Visite nosso site</a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../code_js/scripts_perfil.js"></script>
+
+</body>
+
+</html>

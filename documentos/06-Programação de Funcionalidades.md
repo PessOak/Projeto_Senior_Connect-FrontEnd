@@ -2,7 +2,7 @@
 
 ### Tela de Comunidade
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/105830948/869cc78f-8f16-49e1-b25c-68cc1fe0b2de)
+...
 
 #### Requisito atendido
 
@@ -20,8 +20,6 @@
 #### Instruções de acesso
 https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/codigo-fonte/code_html/html_comunidade.html
 
-#### Responsável
-Rafael Pessoa
 
 ### Tela de Notícias
 
@@ -39,46 +37,28 @@ Rafael Pessoa
 - mini_logo_cortada.png (imagem)
 
 #### Instruções de acesso
-Acessar o link: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/codigo-fonte/code_html/html_noticias.html
-
-#### Responsável
-Rafael Pessoa
-
-
-
-
-
-
+Acessar o link: https:...
 
 
 ### Home Page
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/blob/main/codigo-fonte/paginaHome/funcionalidade%20home%20page.png).
+...
 
 #### Requisito atendido
 
-RF-06	O site deve ter uma funcionalidade que permita a interação entre os usuários da plataforma
-
+...
 
 #### Artefatos da funcionalidade
 
-- index.html
-- style.css
-- script.js
-- mini_logo_cortada.png (imagem)
-- fincionalidade home page.png (imagem)
+...
 
 #### Instruções de acesso
 
 Preencher os campos de nome, email e mensagem ao final da home page.
 
-#### Responsável
-Barbara Farias 
 
 ### Tela de cadastro/login
 
-![image](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/codigo-fonte/code_html/html_cadlog.html)
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/165973143/1c35995b-f404-4c10-8820-9682b1bf4d03)
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/165973143/1c81dfac-b767-4fe8-a806-7fde69ac4d37)
+...
 
 
 
@@ -103,9 +83,6 @@ RF- 05	O sistema deve permitir que os usuários redefinam sua senha caso a esque
 Acessar o link:
 https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/codigo-fonte/code_html/html_cadlog.html
 
-#### Responsável 
-Arthur Goncalves
-
 ### Tela de cursos 
 ![image](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/codigo-fonte/code_html/html_cursos.html)
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/165973143/66250008-2a57-4df6-aa34-c074b6092cbd)
@@ -125,5 +102,3 @@ Os usuários devem poder navegar por uma lista de cursos disponíveis e filtrá-
 Acessar o link: 
 https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/codigo-fonte/code_html/html_cursos.html
 
-#### Responsável 
-Arthur Goncalves

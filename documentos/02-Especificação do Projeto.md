@@ -14,12 +14,14 @@
 <tr>
 <td><b>Necessidades</b></td>
 <td>
+  
   - Interface simplificada;
   - Conteúdo relevante como notícias, artigos de interesse, dicas e finanças;
   - Saúde emocional;
   - Interação social;
   - Recursos de áudio e multimídia;
-  - Entretenimento
+  - Entretenimento;
+
 </td>
 </tr>
 </tbody>

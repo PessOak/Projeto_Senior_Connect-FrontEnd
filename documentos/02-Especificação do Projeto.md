@@ -39,9 +39,11 @@
 <tr>
 <td><b>Necessidades</b></td>
 <td>
+  
   - Canal de aprendizado para indicar para seus pacientes;
   - Informações sobre saúde mental;
   - Atividades que estimulem os idosos, sejam elas físicas, cognitivas, sociais ou recreativas.
+
 </td>
 </tr>
 </tbody>
@@ -59,11 +61,13 @@
 <tr>
 <td><b>Necessidades</b></td>
 <td>  
+  
   - Ter controle sobre os conteúdos acessados pelo idoso;
   - Informação de qualidade e confiança;
   - Tutoriais de tecnologia;
   - Informações sobre saúde mental;
   - Atividades que estimulem os idosos, sejam elas físicas, cognitivas, sociais ou recreativas.
+
 </td>
 </tr>
 </tbody>
@@ -81,9 +85,11 @@
 <tr>
 <td><b>Necessidades</b></td>
 <td>
+  
   - Plataforma segura e de confiança para indicar aos pacientes;
   - Atividades recreativas e que estimulem a interação social;
   - Conteúdo sobre saúde mental;
+
   
 </td>
 </tr>

@@ -1,0 +1,226 @@
+/*
+.card {
+    visibility: hidden;
+    animation: slide-in 4s ease forwards;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        visibility: visible;
+        transform: translateX(0);
+    }
+}
+*/
+
+#img-capa {
+    opacity: 0.65;
+}
+
+.overlay-text {
+    top: 60% !important;
+    color: #01748f;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 50px;
+}
+
+#site_description_text {
+    font-size: 30px !important;
+}
+
+.card{
+    background-color: white;
+    margin: 0 20px;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+
+.card-text {
+    font-size: 25px;
+}
+
+.card-img{
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 15px auto 0;
+    box-shadow: 0 8px 20px -4px #95abbb;
+    width: 100px;
+    height: 100px;
+}
+
+.card-img-top {
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+h4{
+    color: #01748f;
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+h4 span{
+    font-size: 25px;
+    color: darkslategrey;
+}
+
+p{
+    font-size: 18px;
+    color: black;
+    padding-bottom: 15px;
+}
+
+.carousel-indicators{
+    left: 0;
+    top: auto;
+    bottom: -60px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: lightgray;
+    border-color: lightgrey
+}
+
+.carousel-indicators .active {
+    background-color: #01748f; /* Change this to your preferred active color */
+    border-color: #01748f; /* Change this to your preferred active color */
+}
+
+#site_description{
+    margin-top: 100px;
+    margin-bottom: 35px;
+
+}
+
+#cards_depoimentos{
+    background-color: #00A3C6;
+    border-radius: 20px;
+}
+
+#card_margem{
+    margin-top: 20px;
+}
+
+.dropdown-menu .dropdown-item {
+    color: white;
+}
+
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu .dropdown-item:hover {
+    background-color: #00A3C6;
+}
+
+.dropdown-menu {
+    background-color: #00A3C6;
+}
+
+.navbar {
+    background-color: #00A3C6 !important;
+    font-size: 20px;
+}
+
+.custom-rounded {
+    border-radius: 25px; /* Adjust the value as needed */
+}
+
+#contact_form {
+    background-color: #ADD8E6;
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+#cards_conteudos .card {
+    width: 100%;
+}
+
+@media (min-width: 1200px) {
+    #cards_conteudos .card {
+        width: 28rem !important; /* Aumenta o tamanho dos cartões em telas muito grandes */
+    }
+    #conteudo_row02{
+        margin-top: 75px;
+    }
+    #capa img {
+        width: 100%;
+        height: 850px; /* Ajuste este valor para a altura desejada */
+        object-fit: cover; /* Garante que a imagem cubra a área sem distorção */
+        object-position: center; /* Centraliza a imagem */
+    }
+    #texto-capa {
+        font-size: 80px;
+    }
+    #cards_conteudos{
+        margin-top: 90px;
+    }
+    #contact_form {
+        width: 50%;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #texto-capa {
+        font-size: 65px;
+    }
+    #cards_conteudos .card {
+        width: 21rem !important; /* Ajusta o tamanho dos cartões em telas grandes */
+    }
+    #conteudo_row02{
+        margin-top: 50px;
+    }
+    #cards_conteudos{
+        margin-top: 70px;
+    }
+    #contact_form {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #texto-capa {
+        font-size: 55px;
+    }
+    #cards_conteudos .card {
+        width: 17rem !important; /* Ajusta o tamanho dos cartões em telas médias */
+    }
+    #conteudo_row02{
+        margin-top: 30px;
+    }
+    #cards_conteudos{
+        margin-top: 50px;
+    }
+    #contact_form {
+        width: 80%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #texto-capa {
+        font-size: 37px;
+    }
+    #cards_conteudos .card {
+        width: 100%; /* Ocupa toda a largura da coluna em telas pequenas */
+    }
+    #cards_conteudos{
+        margin-top: 25px;
+    }
+    #contact_form {
+        width: 90%;
+    }
+}

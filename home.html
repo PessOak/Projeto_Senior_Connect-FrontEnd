@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="home_style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="background-color: rgba(0, 123, 255, 0.7);">
+        <div class="container-fluid">
+            <!-- Ícone à esquerda -->
+            <a class="navbar-brand" href="#">
+                <img src="mini_logo_cortada.png" alt="Ícone" width="45" height="45">
+            </a>
+            <!-- Botão de toggler para telas pequenas -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Itens da barra de navegação -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Notícias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Tecnologia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Desafios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Comunidade</a></li>
+                    <div class="dropdown">
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Cursos</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Finanças</a></li>
+                                <li><a href="#" class="dropdown-item">Artesanato</a></li>
+                                <li><a href="#" class="dropdown-item">Jardinagem</a></li>
+                                <li><a href="#" class="dropdown-item">Literatura</a></li>
+                                <li><a href="#" class="dropdown-item">Inglês</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-user me-1"></i>Entrar</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>   
+
+    <div class="container-fluid p-0" id="capa">
+        <div class="image-container position-relative">
+            <img src="capa_home.jpeg" class="img-fluid" alt="Imagem da capa" id="img-capa">
+            <div class="overlay-text position-absolute w-100 d-flex justify-content-center" id="texto-capa">
+                <span>Senior Connect</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center" id="cards_conteudos">
+
+        <div class="row" id="conteudo_row01">
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="breakingnews_home.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-info btn-lg">Notícias</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="comunidade_home.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-info btn-lg">Comunidade</a>
+                    </div>
+                </div>
+            </div>   
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="cursos_home.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-info btn-lg">Cursos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center" id="conteudo_row02">
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="tecnologia_home.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-info btn-lg">Tecnologia</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="desafios_home.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-info btn-lg">Desafios</a>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="titulo_depoimentos">
+        <div class="title my-5">
+            <h2 class="text-center">Depoimentos</h2>
+        </div>
+    </div>
+
+    <div class="container" id="cards_depoimentos">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <div class="card text-center" id="card_margem">
+                                <img class="card-img" src="velho01_home.jpg" alt="">
+                                <div class="card-body">
+                                    <h4>Célia <br>
+                                        <span>Aposentada</span>
+                                    </h4>
+                                    <p class="card-text">"Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Dolore, dicta."</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card text-center" id="card_margem">
+                                <img class="card-img" src="filho02_home.jpg" alt="">
+                                <div class="card-body">
+                                    <h4>Carlos <br>
+                                        <span>Parente de Idoso</span>
+                                    </h4>
+                                    <p class="card-text">"Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Dolore, dicta."</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card text-center" id="card_margem">
+                                <img class="card-img" src="psicologa_home.jpg" alt="">
+                                <div class="card-body">
+                                    <h4>Julia <br>
+                                        <span>Psicóloga</span>
+                                    </h4>
+                                    <p class="card-text">"Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Dolore, dicta."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <div class="card text-center" id="card_margem">
+                                <img class="card-img" src="cuidadora_home.jpg" alt="">
+                                <div class="card-body">
+                                    <h4>Marília <br>
+                                        <span>Cuidadora</span>
+                                    </h4>
+                                    <p class="card-text">"Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Dolore, dicta."</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card text-center" id="card_margem">
+                                <img class="card-img" src="velho02_home.jpg" alt="">
+                                <div class="card-body">
+                                    <h4>Geraldo <br>
+                                        <span>Aposentado</span>
+                                    </h4>
+                                    <p class="card-text">"Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Dolore, dicta."</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card text-center" id="card_margem">
+                                <img class="card-img" src="velho03_home.jpg" alt="">
+                                <div class="card-body">
+                                    <h4>Conceição <br>
+                                        <span>Aposentada</span>
+                                    </h4>
+                                    <p class="card-text">"Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Dolore, dicta."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container" id="site_description">
+        <div class="text-center">
+            <h2>Sobre o Projeto</h2>
+            <p id="site_description_text">
+                Bem-vindo à nossa plataforma, um espaço dedicado ao público da terceira idade, seus parentes, psicólogos e cuidadores. Nosso objetivo é criar um ambiente acolhedor, inclusivo e enriquecedor para promover o aprendizado, o desenvolvimento e a conexão entre os idosos. Acreditamos que a idade não é um obstáculo, mas uma oportunidade para explorar novas possibilidades e fortalecer laços sociais. <br>
+                Oferecemos uma variedade de cursos educacionais, desde artesanato até finanças pessoais, permitindo que os idosos continuem aprendendo e se desenvolvendo. Para facilitar o acesso à tecnologia, disponibilizamos recursos e tutoriais simples e intuitivos, ajudando os idosos a se familiarizarem com o mundo digital de maneira segura e confortável. <br>
+                Além disso, promovemos a saúde mental com cursos e desafios cognitivos projetados para estimular a mente. Nossa aba de notícias mantém nossos usuários informados sobre diversos temas, garantindo que estejam sempre atualizados. Criamos um ambiente virtual onde os idosos podem se conectar, compartilhar experiências e construir relacionamentos em uma comunidade acolhedora e inclusiva. Nossa plataforma é um ponto de encontro para a troca de conhecimentos, apoio mútuo e crescimento pessoal, enriquecendo a vida na terceira idade com aprendizado contínuo, tecnologia acessível e uma comunidade vibrante e solidária.
+            </p>
+        </div>
+        <div class="container text-center" id="logo_site">
+            <img src="logo_site_semfundo.png" alt="">
+        </div>
+    </div>
+
+    <div class="container text-center" id="contact_form">
+        <h2>Entre em Contato</h2>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="text" class="form-control form-control-lg rounded-pill" id="exampleFormControlInput1" placeholder="Seu Nome">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="email" class="form-control form-control-lg rounded-pill" id="exampleFormControlInput1" placeholder="Seu E-mail">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"></label>
+            <textarea class="form-control form-control-lg custom-rounded" id="exampleFormControlTextarea1" placeholder="Deixe Sua Mensagem" rows="5"></textarea>
+        </div>
+        <button type="button" class="btn btn-success btn-lg" id="enviar_msg">Enviar</button>
+    </div>
+
+
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">Direitos reservados a SêniorConnect - 2024</span>
+            <a href="https://www.seniorconnect.com.br" style="color: #333;">Visite nosso site</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous">
+    </script>
+    
+    <script>
+        const carouselElement = document.querySelector('#carouselExampleCaptions');
+        const carousel = new bootstrap.Carousel(carouselElement, {
+            interval: 4000, // 4 seg timer
+            ride: 'carousel'
+        });
+
+        function goToVideo(url) {
+            window.location.href = url;
+        }
+    </script>
+</body>
+
+</html>

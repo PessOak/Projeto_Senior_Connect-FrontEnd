@@ -14,17 +14,11 @@
 <tr>
 <td><b>Necessidades</b></td>
 <td>
-  
   - Interface simplificada;
-  
-  - Conteúdo relevante como notícias, artigos de interesse, histórias inspiradoras, dicas de saúde, bem-estar e finanças;
-
+  - Conteúdo relevante como notícias, artigos de interesse, dicas e finanças;
   - Saúde emocional;
-
   - Interação social;
-
   - Recursos de áudio e multimídia;
-
   - Entretenimento
 </td>
 </tr>
@@ -43,13 +37,8 @@
 <tr>
 <td><b>Necessidades</b></td>
 <td>
-  
-  - Controle dos conteúdos acessados pelos seus pacientes;
-  
-  - Informações sobre cuidados paliativos e fim de vida;
-
+  - Canal de aprendizado para indicar para seus pacientes;
   - Informações sobre saúde mental;
-
   - Atividades que estimulem os idosos, sejam elas físicas, cognitivas, sociais ou recreativas.
 </td>
 </tr>
@@ -67,14 +56,11 @@
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>
-  
+<td>  
   - Ter controle sobre os conteúdos acessados pelo idoso;
-  
-  - Informações sobre cuidados paliativos e fim de vida;
-  
+  - Informação de qualidade e confiança;
+  - Tutoriais de tecnologia;
   - Informações sobre saúde mental;
-  
   - Atividades que estimulem os idosos, sejam elas físicas, cognitivas, sociais ou recreativas.
 </td>
 </tr>
@@ -93,12 +79,10 @@
 <tr>
 <td><b>Necessidades</b></td>
 <td>
+  - Plataforma segura e de confiança para indicar aos pacientes;
+  - Atividades recreativas e que estimulem a interação social;
+  - Conteúdo sobre saúde mental;
   
-  - Informações sobre cuidados paliativos e de fim de vida;
-
-  - Informações sobre saúde mental;
-  
-  - Atividades que estimulem os idosos, sejam elas físicas, cognitivas, sociais ou recreativas.
 </td>
 </tr>
 </tbody>

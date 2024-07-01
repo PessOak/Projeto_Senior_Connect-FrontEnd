@@ -11,7 +11,7 @@ let techNews = document.querySelector("#techNews");
 const apiKey = "fa8c2ed8a3ae47d38553a237f062de74"
 const fetchData = async (category, pageSize) => {
     // const url = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&pageSize=${pageSize + 10}&apiKey=${apiKey}`
-    const data = await fetch("../code_js/noticias.json");
+    const data = await fetch("../code_jscript/noticias.json");
     // const data = await fetch(url);
     const response = await data.json();
     console.log(JSON.stringify(response));

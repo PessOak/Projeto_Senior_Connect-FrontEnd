@@ -2,6 +2,10 @@
     font-size: 40px;
 }
 
+body {
+    background-color: #F8F8FF;
+}
+
 p {
     margin-top: 60px;
     margin-bottom: 60px;
@@ -9,8 +13,8 @@ p {
 }
 
 .navbar {
-    background-color: #3385ff !important;
-    font-size: 20px !important;
+    background-color: #00A3C6 !important;
+    font-size: 20px;
 }
 
 .footer {

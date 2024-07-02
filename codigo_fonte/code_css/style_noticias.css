@@ -11,8 +11,8 @@ body{
   width: 100%;
   min-height: 100vh;
   overflow-y: overlay;
+  background-color: #F8F8FF;
 }
-
 
 h2{
   color: #01748f;
@@ -30,6 +30,11 @@ p{
 }
 
 p.card-text {
+  font-size: 20px;
+}
+
+.navbar {
+  background-color: #00A3C6 !important;
   font-size: 20px;
 }
 
@@ -170,19 +175,4 @@ p.card-text {
       margin-top: 50px !important;
   }
 
-}
-
-.dropdown-menu .dropdown-item {
-color: white;
-}
-.dropdown-menu .dropdown-item:focus,
-.dropdown-menu .dropdown-item:hover {
-  background-color: #3385ff;
-}
-.dropdown-menu {
-  background-color: #3385ff;
-}
-
-.navbar {
-  background-color: #3385ff !important;
 }

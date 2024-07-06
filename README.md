@@ -2,7 +2,7 @@
 
 #### Desenvolvimento de aplicação web front-end
 
-Este projeto visa criar uma aplicação web dedicada aos idosos e aos grupos que interagem diretamente com essa comunidade, oferecendo conteúdos educacionais e informativos. A proposta visa promover uma melhor qualidade de vida para os idosos, ajudando-os a manter-se ativos, saudáveis e conectados por meio de recursos online acessíveis. O objetivo é proporcionar um espaço para interação social e aprendizado contínuo. O projeto também tem como objetivo promover o uso positivo das novas tecnologias entre os idosos, facilitando sua aceitação e familiaridade com aplicativos e recursos online que possam melhorar seu dia a dia.
+Este projeto com fins universitários visa criar uma aplicação web dedicada aos idosos e aos grupos que interagem diretamente com essa comunidade, oferecendo conteúdos educacionais e informativos. A proposta visa promover uma melhor qualidade de vida para os idosos, ajudando-os a manter-se ativos, saudáveis e conectados por meio de recursos online acessíveis. O objetivo é proporcionar um espaço para interação social e aprendizado contínuo. O projeto também tem como objetivo promover o uso positivo das novas tecnologias entre os idosos, facilitando sua aceitação e familiaridade com aplicativos e recursos online que possam melhorar seu dia a dia.
 
 ## Desenvolvedor
 

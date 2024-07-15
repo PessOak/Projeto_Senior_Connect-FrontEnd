@@ -31,4 +31,4 @@ https://pessoak.github.io/Projeto_Senior_Connect-FrontEnd/codigo_fonte/code_html
 
 # Apresentação
 
-* <a href="https://github.com/PessOak/Projeto_Senior_Connect-FrontEnd/blob/main/video_funcionamento/README.md"</a>
+* <a href="https://github.com/PessOak/Projeto_Senior_Connect-FrontEnd/blob/main/video_funcionamento/README.md">Vídeo de Apresentação</a>
